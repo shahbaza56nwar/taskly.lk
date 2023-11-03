@@ -13,7 +13,7 @@ def allowed_file(filename):
 
 @app.route("/")
 def index():
-    return "Welcome to the Spark Web App"
+    return "Welcome to the Spark Web App | Taskly.lk"
 
 @app.route("/upload", methods=["POST"])
 def upload_file():
